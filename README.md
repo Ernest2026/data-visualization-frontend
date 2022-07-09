@@ -1,42 +1,43 @@
-# An Admin Dashboard created with Reactjs
+Visualization Dashboard
+The objective of this assignment is to create a data visualization dashboard as per as instructions given below.
 
-## About the project
+Data Visualization Dashboard
+Use given json data
+Create a MongoDB database from the Json data given.
+Use MERN Stack to design and develop a dashboard
+For charts or visualizations, you can use either of the following: (recommended)
+D3.js
+chart.js
+fusioncharts
+plotly.js
+google charts
+highcharts
+etc.
+Use any creating visual that you can create using the data to generate insights
+You must use the given data only.
+Develop any creative visualization that you like most, using provided data in json.
+Interactive graphs, charts, and visuals are recommended
+The dashboard should read the data from the MongoDB database.
+Create API in node,js to get data from the MongoDB
 
-This is a capstone team project(Group 44) from Side Hustle Internship cohort 5.
+Important variables to be visualized
+Intensity
+Likelihood
+Relevance
+Year
+Country
+Topics
+Region
+City
 
-## Expected features
-
-- **An admin login page** - just email and password login.
-- **Home** - the root page with some static analytics data, graphs etc.
-- **Team** - a table showing the various members of the company.
-- **Clients** - a table that displays the customers of the business.
-- **A product page** - that displays all the products of the company, and should be displayed in cards.
-- **Logout** - a user can logout of the dashboard, this takes them back to the login page.
-
-## How to run the project
-
-- Clone or download this repository.
-- Make sure the engines in the package.json file are compatible with the one on your local machine.
-- Run _npm install_ and _npm start_...
-
-## Contributors
-
-Thanks to these people for contributing to the maintenance of this tutorial.
-
-<a href="https://github.com/Ernest2026" target="_blank" title="Ernesto">
-  <img src="https://github.com/ernest2026.png?size=40" height="40" width="40" alt="Ernesto" />
-</a>
-
-<a href="https://github.com/AyomideA-S" target="_blank" title="AyomideA-S">
-  <img src="https://github.com/AyomideA-S.png?size=40" height="40" width="40" alt="AyomideA-S" />
-</a>
-
-<a href="https://github.com/Tosmel2" target="_blank" title="Tosmel">
-  <img src="https://avatars.githubusercontent.com/u/84603888?v=4" height="40" width="40" alt="Tosmel" />
-</a>
-
-<a href="https://github.com/frimpong-kofi" target="_blank" title="Network">
-  <img src="https://github.com/frimpong-kofi.png?size=40" height="40" width="40" alt="Network" />
-</a>
-
-This list is maintained manually—for now—and includes (a) each person who submitted a pull request that was eventually merged into `main`, and (b) each person who contributed in a different way (e.g. providing constructive feedback) and who approved of me including them in this list.
+Filters in the dashboard
+Add end year filter in the dashboard
+Add topics filters in the dashboard
+Add sector filter in the dashboard
+Add region filter in the dashboard
+Add PEST filter in the dashboard
+Add Source filter in the dashboard
+Add SWOT filter in the dashboard
+Country
+City
+Any other control or filters that you can add from the data, best of your knowledge
