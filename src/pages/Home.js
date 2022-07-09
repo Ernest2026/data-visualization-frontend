@@ -8,7 +8,7 @@ import Table from "../components/Table";
 const Home = () => {
   const [data, setData] = useState({});
   useEffect(() => {
-    fetch(`${process.env.REACT_APP_BACKEND_URL}api/v1/data/stats`)
+    fetch(`https://visualization--dashboard.herokuapp.com/api/v1/data/stats`)
       .then((res) => res.json())
       .then((json) => setData(json.data))
       .catch((err) => console.log(err));
